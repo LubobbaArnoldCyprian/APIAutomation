@@ -51,7 +51,6 @@ describe('Different ways of creating a post call', ()=>{
         })
     })
 
-
 // You have to change the email address whenever you run
     it.only ('Approach 3 using fixtures', ()=>{
 
@@ -76,15 +75,8 @@ describe('Different ways of creating a post call', ()=>{
 
                 // assert with properties from the body such as tourist_email, Id and tourist_name
                 expect(Response.body).has.property('tourist_email',requestBody.tourist_email)
-
-
             })
-
-            
-
         })
-
-        
     })
 
 })
