@@ -34,7 +34,7 @@ describe("",()=>{
     })
 
 
-    const token='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'
+    const token='[insert github token]'
     it("Bearer token Auth",()=>{
         cy.request(
             {
